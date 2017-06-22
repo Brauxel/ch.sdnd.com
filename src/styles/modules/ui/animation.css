@@ -1,0 +1,9 @@
+.link {
+  transition: color 0.2s linear;
+}
+
+.button {
+  transition: background-color 0.2s linear, 
+              color 0.2s linear, 
+              border-color 0.2s linear;
+}

@@ -1,0 +1,27 @@
+@value darkest  #000000;
+@value darker   #333333;
+@value dark     #666666;
+@value neutral  #999999;
+@value light    #cccccc;
+@value lighter  #dddddd;
+@value lightest #ffffff;
+
+@value primary #003b59;
+@value primary-highlight #004e74;
+@value primary-disabled #cccccc;
+
+@value secondary #676767;
+@value secondary-highlight #898989;
+@value secondary-disabled #cccccc;
+
+@value inverted lightest;
+@value inverted-highlight lightest;
+@value inverted-disabled #eeeeee;
+
+@value secondary-inverted lightest;
+@value secondary-inverted-highlight lightest;
+@value secondary-inverted-disabled #eeeeee;
+
+@value success #0ca228;
+@value warning #fbaf5d;
+@value error #ed1c24;

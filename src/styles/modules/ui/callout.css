@@ -1,0 +1,39 @@
+@value primary, primary-highlight, primary-disabled, inverted, inverted-highlight, inverted-disabled, secondary, secondary-highlight, secondary-disabled from '../values/color.css';
+@value light, strong from '../values/weight.css';
+
+
+.container {
+  composes: inverted-background from '../ui/color.css';
+  composes: large from '../typography/size.css';
+  padding-top: 19.5px;
+  padding-bottom: 19px;
+  margin: auto auto 1rem auto;
+  text-align: center;
+}
+
+.copy {
+  display: inline-block;
+  max-width: 29rem;
+  color: #fff;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.cta {
+  composes: normal from '../../modules/typography/size.css';
+  composes: alternative from '../../modules/ui/buttons.css';
+  text-transform: none;
+  font-weight: light;
+}
+
+.emphasis {
+  font-weight: strong;
+}
+
+.definition {
+  cursor: pointer;
+}
+
+.definition:hover {
+  text-decoration: underline;
+}

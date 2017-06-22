@@ -1,0 +1,57 @@
+@value primary, primary-highlight, inverted, inverted-highlight, secondary, secondary-highlight, darkest from '../values/color.css';
+
+.standard {
+  color: primary;
+}
+
+.standard-highlight {
+  color: primary-highlight;
+}
+
+.inverted {
+  color: inverted;
+}
+
+.inverted-highlight {
+  color: inverted-highlight;
+}
+
+.alternative {
+  color: secondary;
+}
+
+.alternative-highlight {
+  color: secondary-highlight;
+}
+
+.standard-background {
+  background-color: inverted;
+}
+
+.standard-background-highlight {
+  background-color: inverted-highlight;
+}
+
+.inverted-background {
+  background-color: primary;
+}
+
+.inverted-background-highlight {
+  background-color: primary-highlight;
+}
+
+.alternative-background {
+  background-color: secondary;
+}
+
+.alternative-background-highlight {
+  background-color: secondary-highlight;
+}
+
+.heading {
+  color: darkest;
+}
+
+.copy {
+  color: darkest;
+}

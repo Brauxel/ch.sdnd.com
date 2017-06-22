@@ -1,0 +1,25 @@
+@value secondary-inverted, secondary-inverted-highlight, secondary, secondary-highlight from '../values/color.css';
+
+.common {
+  composes: link from '../ui/animation.css';
+}
+
+.standard {
+  composes: common;
+  color: secondary;
+  text-decoration: none;
+}
+
+.standard:hover {
+  color: secondary-highlight;
+  text-decoration: underline;
+}
+
+.inverted {
+  composes: standard;
+  color: secondary-inverted;
+}
+
+.inverted:hover {
+  color: secondary-inverted-highlight;
+}

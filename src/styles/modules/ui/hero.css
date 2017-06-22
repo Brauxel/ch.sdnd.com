@@ -1,0 +1,34 @@
+@value primary from '../../modules/values/color.css';
+
+.hero {
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  display: flex;
+  padding: 1rem;
+  min-height: 15rem;
+  z-index: 0;
+  position: relative;
+}
+
+.hero-copy {
+  color: #fff;
+  composes: x-large from '../../modules/typography/size.css';
+  composes: light from '../../modules/typography/weight.css';
+  text-align: center;
+  max-width: 26rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  flex: 1 1 100%;
+  margin: auto;
+}
+
+
+.hero-copy-line-1 {
+  display: block;
+}
+
+.hero-copy-line-2 {
+  display: block;
+}

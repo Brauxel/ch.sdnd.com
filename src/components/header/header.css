@@ -1,0 +1,20 @@
+.header{
+  padding: 15px 0 30px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.h1{
+  display: block;
+  width: 350px;
+  height: 77px;
+  background: url('/images/catalyst-hunter-logo.png') no-repeat;
+  background-size: contain;
+  text-indent: -9999px;
+}
+

@@ -1,0 +1,63 @@
+/*
+ * See http://codepen.io/sebilasse/pen/gPBQqm?editors=1010 for metrics
+ * See http://www.modularscale.com/?1&em&1.25&web&text for scale
+ *
+ * Calculation: font-size * ((line-height / font-size) - (cap-height / font-size)) / 2
+ */
+@value line-height, smallest, smaller, small, normal, large, x-large, xx-large, xxx-large, smallest-offset, smaller-offset, small-offset, normal-offset, large-offset, x-large-offset, xx-large-offset, xxx-large-offset from '../values/size.css';
+
+.smallest {
+  font-size: smallest;
+  line-height: line-height;
+  padding-top: smallest-offset;
+  margin-bottom: calc(smallest-offset * -1);
+}
+
+.smaller {
+  font-size: smaller;
+  line-height: line-height;
+  padding-top: smaller-offset;
+  margin-bottom: calc(smaller-offset * -1);
+}
+
+.small {
+  font-size: small;
+  line-height: line-height;
+  padding-top: small-offset;
+  margin-bottom: calc(small-offset * -1);
+}
+
+.normal {
+  font-size: normal;
+  line-height: calc(line-height * 1.5);
+  padding-top: normal-offset;
+  margin-bottom: calc(normal-offset * -1);
+}
+
+.large {
+  font-size: large;
+  line-height: calc(line-height * 2);
+  padding-top: large-offset;
+  margin-bottom: calc(large-offset * -1);
+}
+
+.x-large {
+  font-size: x-large;
+  line-height: calc(line-height * 2);
+  padding-top: x-large-offset;
+  margin-bottom: calc(x-large-offset * -1);
+}
+
+.xx-large {
+  font-size: xx-large;
+  line-height: calc(line-height * 2.5);
+  padding-top: xx-large-offset;
+  margin-bottom: calc(xx-large-offset * -1);
+}
+
+.xxx-large {
+  font-size: xxx-large;
+  line-height: calc(line-height * 3);
+  padding-top: xxx-large-offset;
+  margin-bottom: calc(xxx-large-offset * -1);
+}

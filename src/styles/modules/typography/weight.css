@@ -1,0 +1,13 @@
+@value light, normal, strong from '../values/weight.css';
+
+.light {
+  font-weight: light;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: strong;
+}

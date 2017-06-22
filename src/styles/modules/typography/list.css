@@ -1,0 +1,18 @@
+.list {
+  margin-bottom: 1rem;
+}
+
+.unordered-list {
+  composes: list;
+  list-style-type: disc;
+
+}
+
+.ordered-list {
+  composes: list;
+  list-style-type: decimal;
+}
+
+.list-item {
+  composes: small from '../typography/size.css';
+}

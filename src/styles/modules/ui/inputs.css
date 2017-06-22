@@ -1,0 +1,19 @@
+@value light from '../values/color.css';
+
+.text-field {
+  composes: small from '../typography/size.css';
+  composes: light from '../typography/weight.css';
+  border-radius: 4px;
+  border: 1px solid light;
+  color: #000000;
+  padding: 4.5px 0.5rem;
+}
+
+.textfield:active {
+  color: #5d6a70;
+  border-color: #a8acad;
+}
+
+.textfield::placeholder {
+  color: #90a4ae;
+}

@@ -1,0 +1,19 @@
+@value line-height: 20px;
+
+@value smallest 9px;
+@value smaller 12px;
+@value small 15px;
+@value normal 18px;
+@value large 23px;
+@value x-large 29px;
+@value xx-large 36px;
+@value xxx-large 45px;
+
+@value smallest-offset 6px;
+@value smaller-offset 4.5px;
+@value small-offset 3.5px;
+@value normal-offset 7.5px;
+@value large-offset 10.5px;
+@value x-large-offset 8.5px;
+@value xx-large-offset 10.5px;
+@value xxx-large-offset 12.5px;

@@ -1,0 +1,19 @@
+.content {
+  padding: 3rem 1rem;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.columns {}
+
+@media screen and (min-width: 42rem) {
+  .columns {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .columns {
+    column-count: 3;
+  }
+}

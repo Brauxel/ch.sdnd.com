@@ -1,0 +1,48 @@
+.post{
+  margin: 10px;
+  border: 1px solid #f2f2f2;
+  padding: 7% 7.5%;
+  color: #333;
+}
+
+.header{
+  border: 0;
+  padding: 0;
+}
+
+.h2{
+  font-weight: normal;
+}
+
+.anchor{
+  font-family: 'roboto', arial, sans-serif;
+  font-size: 2.1em;
+  text-decoration: none;
+  letter-spacing: -0.04em;
+  color: #333;
+}
+
+.anchor:hover{
+  color: #f7931e;
+}
+
+    
+.aside{
+  font-size: 1.6em;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.main{
+  float: none;
+}
+
+.paragraph{
+  font-size: 16px;
+  color: #333;
+}
+

@@ -1,0 +1,35 @@
+
+
+.h4{
+  font-size: 125%;
+  line-height: 175%;
+  color: #9bbb58;
+  letter-spacing: -0.038em;
+  margin: 0 0 0.65em;
+}
+
+svg{
+  height: 18px;
+  position: relative;
+  top: 3px;
+  left: -2px;
+}
+  
+
+.paragraph{
+  font-size: 12px;
+}
+
+.control{
+  display: inline-block;
+  width: 100%;
+  height: 2.65em;
+  margin: 3px 0;
+  padding: 5px 4px;
+  line-height: 2.65em;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  font-size: 15px;
+  color: #555;
+}
+

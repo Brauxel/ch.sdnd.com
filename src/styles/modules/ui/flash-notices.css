@@ -1,0 +1,17 @@
+.flash {
+  composes: small from '../typography/size.css';
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.flash-error {
+  composes: flash;
+}
+
+.flash-notice {
+  composes: flash;
+}
+
+.flash-alert {
+  composes: flash;
+}

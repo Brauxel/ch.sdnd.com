@@ -1,0 +1,25 @@
+@value line-height, x-large-offset, large-offset, normal-offset, small-offset, smaller-offset from '../values/size.css';
+
+.heading-1 {
+  composes: large from '../typography/size.css';
+  text-transform: uppercase;
+  margin-bottom: calc(line-height - large-offset);
+}
+
+.heading-2 {
+  composes: normal from '../typography/size.css';
+  text-transform: uppercase;
+  margin-bottom: calc(line-height - normal-offset);
+}
+
+.heading-3 {
+  composes: small from '../typography/size.css';
+  text-transform: uppercase;
+  margin-bottom: calc(line-height - small-offset);
+}
+
+.heading-4, .heading-5, .heading-6 {
+  composes: smaller from '../typography/size.css';
+  text-transform: uppercase;
+  margin-bottom: calc(line-height - smaller-offset);
+}

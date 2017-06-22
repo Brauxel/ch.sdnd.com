@@ -1,0 +1,31 @@
+@value line-height, small-offset from '../values/size.css';
+
+.paragraph {
+  composes: small from '../typography/size.css';
+  composes: copy from '../ui/color.css';
+  margin-bottom: calc(line-height - small-offset);
+}
+
+.link {
+  composes: standard from '../ui/link.css';
+  text-decoration: underline;
+}
+
+.unordered-list {
+  composes: copy from '../ui/color.css';
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ordered-list {
+  composes: copy from '../ui/color.css';
+  list-style-type: decimal;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.list-item {
+  composes: small from '../typography/size.css';
+  margin-bottom: calc((line-height / 2) - small-offset);
+}

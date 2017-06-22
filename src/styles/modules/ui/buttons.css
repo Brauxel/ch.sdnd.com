@@ -1,0 +1,111 @@
+@value primary, primary-highlight, primary-disabled, inverted, inverted-highlight, inverted-disabled, secondary, secondary-highlight, secondary-disabled from '../values/color.css';
+
+.common {
+  composes: button from '../ui/animation.css';
+  composes: bold from '../typography/weight.css';
+  display: inline-block;
+  border-radius: 7px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.25rem 1rem;
+  margin-top: -0.25rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.standard {
+  composes: common;
+  color: inverted;
+  background-color: primary;
+  border-color: primary;
+}
+
+.standard:hover {
+  color: inverted;
+  background-color: primary-highlight;
+  border-color: primary-highlight;
+}
+
+.standard:disabled {
+  cursor: default;
+  color: inverted-disabled;
+  background-color: primary-disabled;
+  border-color: primary-disabled;
+}
+
+.alternative {
+  composes: common;
+  color: inverted;
+  background-color: secondary;
+  border-color: secondary;
+}
+
+.alternative:hover {
+  color: inverted;
+  background-color: secondary-highlight;
+  border-color: secondary-highlight;
+}
+
+.alternative:disabled {
+  cursor: default;
+  color: inverted-disabled;
+  background-color: secondary-disabled;
+  border-color: secondary-disabled;
+}
+
+.inverted {
+  composes: common;
+  color: primary;
+  background-color: inverted;
+  border-color: inverted;
+}
+
+.inverted:hover {
+  color: primary;
+  background-color: inverted-highlight;
+  border-color: inverted-highlight;
+}
+
+.inverted:disabled {
+  cursor: default;
+  color: primary-disabled;
+  background-color: inverted-disabled;
+  border-color: inverted-disabled;
+}
+
+.outlined {
+  composes: standard;
+  color: primary;
+  background-color: transparent;
+}
+
+.outlined-inverted {
+  composes: standard;
+  color: inverted;
+  background-color: transparent;
+}
+
+.outlined-alternatived {
+  composes: standard;
+  color: alternative;
+  background-color: transparent;
+}
+
+.large {
+  padding: 0.75rem 1.5rem;
+  margin-top: -0.5rem;
+}
+
+.wrapped {
+  display: block;
+  width: 100%;
+}
+
+.wrapper {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20rem;
+}
